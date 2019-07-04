@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body, html{
+    position: relative;
+    width:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, html, #root, .menu, .menu div, nav, #root .main{
+    height: 100%;
+}
+
+#root .main, .coll{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Menu */
+
+nav{
+    width: 120px;
+    background: rgb(2,0,36);
+    background: linear-gradient(176deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 22%, rgba(255,255,255,1) 100%);
+}
+
+nav ul{
+    padding: 20px 0;
+}
+
+nav ul li{
+    padding: 20px 0;
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+nav ul li i{
+    font-size: 37px;
+}
+
+nav ul li .active{
+    background-color: #727272;
+}
+
+/* Gráfico 1 */
+
+.page-one{
+    width:85%;
+    padding: 40px 35px;
+}
+
+.title, .title-two{
+    font-size: 30px;
+}
+
+.grafico-one, .grafico-two, .grafico-three{
+    width: 40%;
+}
+
+.grafico-one, .grafico-two, .grafico-three{
+    border-radius: 2px;
+    box-shadow: 0 0 4px 4px #c2c2c2;
+    margin: 20px 10px;
+    padding: 20px 0;
+}
+
+.grafico-one p, .grafico-two p, .grafico-three p{
+    margin: 10px 10px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.grafico-three, .title-two{
+    display: none;
+}
